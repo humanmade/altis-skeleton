@@ -1,0 +1,25 @@
+/*
+Theme Name: Base Theme
+Author: You
+
+This file is yours to edit and replace.
+*/
+
+:root {
+	--color-blue: #4667de;
+	--color-darkblue: #152a4e;
+	--color-green: #3fcf8e;
+	--color-offwhite: #f3f5f9;
+}
+
+body {
+	background: #f1f1f1;
+	font: 16px/1.6 sans-serif;
+}
+
+#welcome {
+	background: #fff;
+	width: 60%;
+	padding: 1rem;
+	margin: 1rem auto;
+}
