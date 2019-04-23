@@ -6,7 +6,8 @@
         "humanmade/platform": "dev-master"
     },
     "require-dev": {
-        "humanmade/platform-local-chassis": "dev-master"
+        "humanmade/platform-local-chassis": "dev-master",
+        "humanmade/local-server": "dev-master"
     },
     "authors": [
         {
