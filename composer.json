@@ -3,11 +3,11 @@
     "description": "A base HM Platform project to get started with",
     "type": "project",
     "require": {
-        "humanmade/platform": "dev-master"
+        "humanmade/platform": "1.0.0-beta1"
     },
     "require-dev": {
-        "humanmade/platform-local-chassis": "dev-master",
-        "humanmade/local-server": "dev-master"
+        "humanmade/platform-local-chassis": "1.0.0-beta1",
+        "humanmade/local-server": "1.0.0-beta1"
     },
     "authors": [
         {
