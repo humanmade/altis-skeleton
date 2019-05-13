@@ -1,13 +1,13 @@
 {
-    "name": "humanmade/skeleton",
-    "description": "A base HM Platform project to get started with",
+    "name": "altis/skeleton",
+    "description": "A base Altis project to get started with",
     "type": "project",
     "require": {
-        "humanmade/platform": "dev-master"
+        "altis/platform": "dev-master"
     },
     "require-dev": {
-        "humanmade/platform-local-chassis": "dev-master",
-        "humanmade/local-server": "dev-master"
+        "altis/local-chassis": "dev-master",
+        "altis/local-server": "dev-master"
     },
     "authors": [
         {

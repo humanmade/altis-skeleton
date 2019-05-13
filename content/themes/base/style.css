@@ -6,20 +6,50 @@ This file is yours to edit and replace.
 */
 
 :root {
-	--color-blue: #4667de;
-	--color-darkblue: #152a4e;
-	--color-green: #3fcf8e;
-	--color-offwhite: #f3f5f9;
+	--color-blue: #152a4e;
+	--color-white: #fff;
+	--color-grey: #a2aabe;
+	--bg-gradient-start: #0f1a3c;
+	--bg-gradient-end: #273c83;
+}
+
+html, body {
+	height: 100%;
+	overflow: hidden;
 }
 
 body {
-	background: #f1f1f1;
-	font: 16px/1.6 sans-serif;
+	margin: 0;
+	padding: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	display: flex;
+	flex-direction: row;
 }
 
 #welcome {
-	background: #fff;
-	width: 60%;
-	padding: 1rem;
-	margin: 1rem auto;
+	flex-grow: 1;
+	text-align: center;
+	background-color: var( --color-blue );
+	background-image: linear-gradient( 293deg, var( --bg-gradient-start ), var( --bg-gradient-end ) );
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.4rem;
+	line-height: 1.5;
+	color: var( --color-white );
+}
+
+#welcome img {
+	max-width: 15vw;
+	margin-bottom: 2rem;
+
+	/* Adjust gravity of image */
+	margin-right: -2vw;
+}
+
+#welcome a {
+	color: var( --color-white );
 }
