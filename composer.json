@@ -3,11 +3,11 @@
     "description": "A base HM Platform project to get started with",
     "type": "project",
     "require": {
-        "humanmade/platform": "1.0.0-beta2"
+        "altis/platform": "1.0.0-beta2"
     },
     "require-dev": {
-        "humanmade/platform-local-chassis": "1.0.0-beta2",
-        "humanmade/local-server": "1.0.0-beta2"
+        "altis/local-chassis": "1.0.0-beta2",
+        "altis/local-server": "1.0.0-beta2"
     },
     "authors": [
         {
