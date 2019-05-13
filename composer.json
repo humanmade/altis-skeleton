@@ -3,11 +3,11 @@
     "description": "A base HM Platform project to get started with",
     "type": "project",
     "require": {
-        "humanmade/platform": "1.0.0-beta2"
+        "humanmade/platform": "dev-master"
     },
     "require-dev": {
-        "humanmade/platform-local-chassis": "1.0.0-beta2",
-        "humanmade/local-server": "1.0.0-beta2"
+        "humanmade/platform-local-chassis": "dev-master",
+        "humanmade/local-server": "dev-master"
     },
     "authors": [
         {
@@ -15,7 +15,7 @@
             "email": "hello@humanmade.com"
         }
     ],
-    "minimum-stability": "beta",
+    "minimum-stability": "dev",
     "extra": {
         "installer-paths": {
             "content/mu-plugins/{$name}/": [
