@@ -3,7 +3,7 @@
     "description": "A base Altis project to get started with",
     "type": "project",
     "require": {
-        "altis/platform": "dev-master"
+        "altis/altis": "dev-master"
     },
     "require-dev": {
         "altis/local-chassis": "dev-master",
