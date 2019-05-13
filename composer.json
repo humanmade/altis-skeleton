@@ -1,5 +1,5 @@
 {
-    "name": "humanmade/skeleton",
+    "name": "altis/skeleton",
     "description": "A base HM Platform project to get started with",
     "type": "project",
     "require": {
