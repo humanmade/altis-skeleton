@@ -1,6 +1,6 @@
 {
     "name": "altis/skeleton",
-    "description": "A base HM Platform project to get started with",
+    "description": "A base Altis project to get started with",
     "type": "project",
     "require": {
         "altis/platform": "1.0.0-beta2"
