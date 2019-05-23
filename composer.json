@@ -15,8 +15,7 @@
             "email": "hello@humanmade.com"
         }
     ],
-    "minimum-stability": "RC",
-    "prefer-stable": true,
+    "minimum-stability": "stable",
     "extra": {
         "installer-paths": {
             "content/mu-plugins/{$name}/": [
