@@ -3,11 +3,11 @@
     "description": "A base Altis project to get started with",
     "type": "project",
     "require": {
-        "altis/altis": "1.0.0-rc3"
+        "altis/altis": "^1.0.0"
     },
     "require-dev": {
-        "altis/local-chassis": "1.0.0-rc3",
-        "altis/local-server": "1.0.0-rc3"
+        "altis/local-chassis": "^1.0.0",
+        "altis/local-server": "^1.0.0"
     },
     "authors": [
         {
@@ -15,7 +15,7 @@
             "email": "hello@humanmade.com"
         }
     ],
-    "minimum-stability": "RC",
+    "minimum-stability": "stable",
     "extra": {
         "installer-paths": {
             "content/mu-plugins/{$name}/": [
