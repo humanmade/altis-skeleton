@@ -12,7 +12,7 @@ $folder_path = 'content/themes/base';
 if ( file_exists( '/etc/chassis-constants' ) ) {
 	$json_string = file_get_contents( '/etc/chassis-constants' );
 	$data = json_decode( $json_string, true );
-	if ( !empty( $data ) && !empty( $data['synced_folders']['/chassis'] ) ) {
+	if ( ! empty( $data ) && ! empty( $data['synced_folders']['/chassis'] ) ) {
 		$folder_path = $data['synced_folders']['/chassis'] . '/content/themes/base';
 	}
 }
