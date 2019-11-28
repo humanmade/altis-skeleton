@@ -3,11 +3,11 @@
     "description": "A base Altis project to get started with",
     "type": "project",
     "require": {
-        "altis/altis": "3.0.0-beta1"
+        "altis/altis": "3.0.0-beta2"
     },
     "require-dev": {
-        "altis/local-chassis": "3.0.0-beta1",
-        "altis/local-server": "3.0.0-beta1"
+        "altis/local-chassis": "3.0.0-beta2",
+        "altis/local-server": "3.0.0-beta2"
     },
     "authors": [
         {
