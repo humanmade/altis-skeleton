@@ -2,6 +2,12 @@
     "name": "altis/skeleton",
     "description": "A base Altis project to get started with",
     "type": "project",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        }
+    ],
     "require": {
         "altis/altis": "dev-master"
     },
