@@ -10,6 +10,7 @@ get_header();
 $folder_path = 'content/themes/base';
 
 if ( file_exists( '/etc/chassis-constants' ) ) {
+	// phpcs:ignore WordPress.WP.AlternativeFunctions.file_get_contents_file_get_contents
 	$json_string = file_get_contents( '/etc/chassis-constants' );
 	$data = json_decode( $json_string, true );
 	if ( ! empty( $data ) && ! empty( $data['synced_folders']['/chassis'] ) ) {
@@ -21,11 +22,15 @@ if ( file_exists( '/etc/chassis-constants' ) ) {
 	<div id="welcome">
 		<?php Altis\CMS\Branding\render_logo( 'white' ) ?>
 		<p><?php _e( 'Altis is installed and ready to go.', 'altis' ) ?></p>
-		<p><?php
+		<p>
+			<?php
 			echo sprintf(
+				// translators: %s replaced by file path to theme
 				__( 'Edit this placeholder theme at:<br><code>%s</code>', 'hm-platform' ),
 				$folder_path
-			); ?></p>
+			);
+			?>
+		</p>
 		<p><a href="<?php echo Altis\Documentation\get_url_for_page( 'getting-started', 'first-theme.md' ) ?>"><?php esc_html_e( 'View documentation 🚀', 'hm-platform' ) ?></a></p>
 	</div>
 <?php
