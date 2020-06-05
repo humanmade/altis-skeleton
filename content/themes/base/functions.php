@@ -7,6 +7,6 @@
 
 namespace YourProject;
 
-require __DIR__. '/inc/namespace.php';
+require __DIR__ . '/inc/namespace.php';
 
 add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\\enqueue_assets' );
