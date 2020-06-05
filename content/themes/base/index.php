@@ -3,6 +3,8 @@
  * The default template file.
  *
  * This file is yours to edit and replace.
+ *
+ * @package altis-skeleton
  */
 
 get_header();
@@ -20,18 +22,24 @@ if ( file_exists( '/etc/chassis-constants' ) ) {
 
 ?>
 	<div id="welcome">
-		<?php Altis\CMS\Branding\render_logo( 'white' ) ?>
-		<p><?php _e( 'Altis is installed and ready to go.', 'altis' ) ?></p>
+		<?php Altis\CMS\Branding\render_logo( 'white' ); ?>
+		<p><?php esc_html_e( 'Altis is installed and ready to go.', 'altis' ); ?></p>
 		<p>
 			<?php
 			echo sprintf(
-				// translators: %s replaced by file path to theme
-				__( 'Edit this placeholder theme at:<br><code>%s</code>', 'hm-platform' ),
-				$folder_path
+				wp_kses(
+					// translators: %s replaced by file path to theme.
+					__( 'Edit this placeholder theme at:<br><code>%s</code>', 'hm-platform' ),
+					[
+						'br' => [],
+						'code' => [],
+					]
+				),
+				esc_html( $folder_path )
 			);
 			?>
 		</p>
-		<p><a href="<?php echo Altis\Documentation\get_url_for_page( 'getting-started', 'first-theme.md' ) ?>"><?php esc_html_e( 'View documentation 🚀', 'hm-platform' ) ?></a></p>
+		<p><a href="<?php echo esc_attr( Altis\Documentation\get_url_for_page( 'getting-started', 'first-theme.md' ) ); ?>"><?php esc_html_e( 'View documentation 🚀', 'hm-platform' ); ?></a></p>
 	</div>
 <?php
 

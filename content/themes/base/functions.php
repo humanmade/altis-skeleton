@@ -3,6 +3,8 @@
  * Entrypoint for theme functionality.
  *
  * This file is yours to edit and replace.
+ *
+ * @package altis-skeleton
  */
 
 namespace YourProject;
