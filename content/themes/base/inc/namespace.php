@@ -2,7 +2,7 @@
 /**
  * Entrypoint for theme functionality.
  *
- * @package altis-sksleton
+ * @package altis/skeleton
  */
 
 namespace YourProject;

@@ -4,7 +4,7 @@
  *
  * This file is yours to edit and replace.
  *
- * @package altis-skeleton
+ * @package altis/skeleton
  */
 
 namespace YourProject;
