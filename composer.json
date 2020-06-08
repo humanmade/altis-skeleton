@@ -28,5 +28,11 @@
                 "type:wordpress-theme"
             ]
         }
+    },
+    "config": {
+        "platform": {
+            "php": "7.2",
+            "ext-mbstring": "7.2.30"
+        }
     }
 }
