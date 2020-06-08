@@ -28,5 +28,10 @@
                 "type:wordpress-theme"
             ]
         }
+    },
+    "config": {
+        "platform": {
+            "php": "7.2"
+        }
     }
 }
