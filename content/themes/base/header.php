@@ -3,7 +3,10 @@
  * The template for displaying the page header.
  *
  * This file is yours to edit and replace.
+ *
+ * @package altis/skeleton
  */
+
 ?>
 <!doctype html>
 <html <?php language_attributes(); ?>>

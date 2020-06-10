@@ -1,6 +1,8 @@
 <?php
 /**
  * Entrypoint for theme functionality.
+ *
+ * @package altis/skeleton
  */
 
 namespace YourProject;
