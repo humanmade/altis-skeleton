@@ -3,11 +3,11 @@
     "description": "A base Altis project to get started with",
     "type": "project",
     "require": {
-        "altis/altis": "6.0.0-rc2"
+        "altis/altis": "^6.0.0"
     },
     "require-dev": {
-        "altis/local-chassis": "6.0.0-rc2",
-        "altis/local-server": "6.0.0-rc2"
+        "altis/local-chassis": "^6.0.0",
+        "altis/local-server": "^6.0.0"
     },
     "authors": [
         {
@@ -15,7 +15,6 @@
             "email": "hello@humanmade.com"
         }
     ],
-    "minimum-stability": "RC",
     "extra": {
         "installer-paths": {
             "content/mu-plugins/{$name}/": [
@@ -31,7 +30,7 @@
     },
     "config": {
         "platform": {
-            "php": "7.2.5",
+            "php": "7.2.34",
             "ext-mbstring": "7.2.30"
         }
     }
