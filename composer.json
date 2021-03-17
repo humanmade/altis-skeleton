@@ -31,8 +31,8 @@
     },
     "config": {
         "platform": {
-            "php": "7.2.34",
-            "ext-mbstring": "7.2.30"
+            "php": "7.4.13",
+            "ext-mbstring": "7.4.13"
         }
     }
 }
