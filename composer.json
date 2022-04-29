@@ -31,17 +31,13 @@
     },
     "config": {
         "platform": {
-            "php": "7.4.13",
-            "ext-mbstring": "7.4.13"
+            "php": "8.0",
+            "ext-mbstring": "8.0"
         },
         "allow-plugins": {
             "composer/installers": true,
             "johnpbloch/wordpress-core-installer": true,
-            "altis/cms-installer": true,
-            "altis/dev-tools-command": true,
-            "altis/core": true,
-            "altis/local-chassis": true,
-            "altis/local-server": true
+            "altis/*": true
         }
     }
 }
