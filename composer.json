@@ -6,7 +6,6 @@
         "altis/altis": "dev-master"
     },
     "require-dev": {
-        "altis/local-chassis": "dev-master",
         "altis/local-server": "dev-master"
     },
     "authors": [
@@ -41,3 +40,4 @@
         }
     }
 }
+	
