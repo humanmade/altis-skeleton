@@ -26,6 +26,17 @@
             "content/themes/{$name}/": [
                 "type:wordpress-theme"
             ]
+        },
+        "altis": {
+            "modules": {
+                "local-server": {
+                    "php": "8.2",
+                    "ignore-paths": [
+                        "node_modules",
+                        ".DS_Store"
+                    ]
+                }
+            }
         }
     },
     "config": {
