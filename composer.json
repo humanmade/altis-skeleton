@@ -3,10 +3,10 @@
     "description": "A base Altis project to get started with",
     "type": "project",
     "require": {
-        "altis/altis": "ˆ23.0.0@beta"
+        "altis/altis": "^23.0.0@beta"
     },
     "require-dev": {
-        "altis/local-server": "ˆ23.0.0@beta"
+        "altis/local-server": "^23.0.0@beta"
     },
     "authors": [
         {
