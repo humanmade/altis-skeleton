@@ -30,8 +30,8 @@
     },
     "config": {
         "platform": {
-            "php": "8.2",
-            "ext-mbstring": "8.2"
+            "php": "8.3",
+            "ext-mbstring": "8.3"
         },
         "allow-plugins": {
             "composer/installers": true,
