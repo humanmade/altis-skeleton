@@ -37,6 +37,12 @@
             "composer/installers": true,
             "johnpbloch/wordpress-core-installer": true,
             "altis/*": true
+        },
+        "audit": {
+            "ignore": {
+                "PKSA-4t1p-xpk2-nsss": "CloudFront Policy Document Injection in Aws\\CloudFront\\Signer. Altis does not use CloudFront URL/cookie signing - only CloudFrontClient::createInvalidation is called for cache purging.",
+                "PKSA-dxyf-6n16-t87m": "S3 Encryption Client Key Commitment in Aws\\S3\\Crypto\\S3EncryptionClient*. Altis does not use S3 client-side encryption - humanmade/s3-uploads uses only the plain S3Client."
+            }
         }
     }
 }
